@@ -1,0 +1,4 @@
+
+#define NETLINK_TEST 30
+
+#define MAX_PAYLOAD 1024
