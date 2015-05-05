@@ -11,7 +11,7 @@
 int g_fd;
 int main(int argc, char *argv[]) {
 	int ret = 0;
-	g_fd = socket(PF_NETLINK, SOCK_RAW, NETLINK_TEST);
+	g_fd = socket(AF_NETLINK, SOCK_RAW, NETLINK_TEST);
 	if (0 > g_fd) {
 		perror("create socket error");
 		return -1;
